@@ -3,6 +3,9 @@
 - Provides structure to the web page
 A website can have multiple layers. 
 The home page, is auto detected by most servers by the file name of `index.html`
+HTML Tags are containers for content or other tags (_present at index.html_)
+## `<>` opening tag syntax `</>` is the syntax for closing the tag
+    `<!--` opening for comments `-->` closing for comments 
 
 Output on the console is achieved using the `console.log`
 
