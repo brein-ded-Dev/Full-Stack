@@ -12,6 +12,9 @@ Here we have used an attribute, in this case the attribute is LANG referring to 
 </head>
 
 <body> <!-- Body contains data whill be rendered and displayed to the user -->
+
+<header> <!--These Tags, don't quite serve any purpose other than SEO-->
+
     <h1> <!--h1 here is considered as HTML Tag-->
         Heading Tag used for this line.
     </h1> 
@@ -31,65 +34,105 @@ Here we have used an attribute, in this case the attribute is LANG referring to 
         It is important to use heading tags correctly. because google's search algorithm uses headings. Use CSS for font sizing.
     </h3>
 
+</header>
+
     <hr><br> <!-- <BR> Break line tag, does not need or contain content-->
     
+<main>
+    
+    <section>
+        <ul> <!-- Unordered list, shows with  bullet points by default
+            Bullet points can be changed either by using CSS or by using Properties present in list's MDN reference-->
+            <li> Sour</li>
+            <ul>
+                <li> Lemon </li>
+                <ul>
+                    <li> Yellow </li>
+                </ul>
+                <li> Vinegar </li>
+            </ul>
+            <li> Bitter </li>
+            <ul>
+                <li> Coffee </li>
+                <li> Dark Chocolate </li>
+            </ul>
+            <li> Sweet </li>
+            <ul>
+                <li> Sugar </li>
+                <li> Honey </li>
+            </ul>
+            <li> Salty </li>
+            <ul>
+                <li> Salt </li>
+                <li> Soy Sauce </li>
+            </ul>
+            <li> Umami </li>
+            <ul>
+                <li> MSG </li>
+                <li> Mushrooms </li>
+            </ul>
 
-<p>
-    Paragraph 
-    <b> used this </b>
-    line I if i type think this          <!--No extra spaces shown here as HTML auto changes to one space between words.-->                                will 
-    work as i think this will for the
-    <i> Italics ffff obvious reasons </i>
-    <br>
-    i'm sure this will 
-    <u> work correctly </u> 
-    but let's test it.
-</p>
+        </ul>
+    </section>
+    <p>
+        Paragraph 
+        <b> used this </b>
+        line I if i type think this          <!--No extra spaces shown here as HTML auto changes to one space between words.-->                                will 
+        work as i think this will for the
+        <i> Italics ffff obvious reasons </i>
+        <br>
+        i'm sure this will 
+        <u> work correctly </u> 
+        but let's test it.
+    </p>
 
-<!-- The tags in HTML are semantics and structures, and the entire BODY tag contains data which will be shown on the website. only exceptions are keywords.-->
+    <!-- The tags in HTML are semantics and structures, and the entire BODY tag contains data which will be shown on the website. only exceptions are keywords.-->
 
-<p> 
-    will typing
-    <sub> subscript </sub> 
-     here change 
-     <sup> Super script </sup>
-     anything
-</p>
+    <p> 
+        will typing
+        <sub> subscript </sub> 
+        here change 
+        <sup> Super script </sup>
+        anything
+    </p>
 
-<br><hr> 
+    <br><hr> 
 
-    <a href = "https://www.google.com/"> This is an anchor tag, used for hypertexting websites  </a>
-    <!-- <a href = "URL"> Link text</a>     
-    `a` → Anchor tag  
-    `href` → Hypertext reference (where the link points)  
-    `Link Text` → Visible clickable text  -->
+        <a href = "https://www.google.com/"> This is an anchor tag, used for hypertexting websites  </a>
+        <!-- <a href = "URL"> Link text</a>     
+        `a` → Anchor tag  
+        `href` → Hypertext reference (where the link points)  
+        `Link Text` → Visible clickable text  -->
 
-    <br><br>
+        <br><br>
 
-     <a href = "/TESTING/another.html"> relative anchor tag to testing html</a> <br><br>
-     <!-- Final boss of relative Anchor tag-->
+        <a href = "/TESTING/another.html" target="_main"> relative anchor tag to testing html</a> <br><br>
+        <!-- Final boss of relative Anchor tag-->
+
+    <hr>
+    <section> <!-- We semantically know that this is section, There should be more sections in the File, 
+        like the anchor tags would make a section and so on and so forth.-->
+        <b> BOLD </b> <br>
+        <i> ITALIC </i><br>
+        <u> Underline </u><br>
+        <hr> <!-- Horizontal line across web page-->
+        <big> For big font size  </big><br>
+        <small> for smaller font size <small><br>
+        This is <sub> subscript </sub> <br>
+        This is <sup> Superscript </sup> <br>
+    </section>
+</main>
 
 <hr>
-
-<b> BOLD </b> <br>
-<i> ITALIC </i><br>
-<u> Underline </u><br>
-<hr> <!-- Horizontal line across web page-->
-<big> For big font size  </big><br>
-<small> for smaller font size <small><br>
-This is <sub> subscript </sub> <br>
-This is <sup> Superscript </sup> <br>
-
-<hr>
-
-<pre> <!--Apparantely the functionality also works with the starting spaces. didn't realize it as such.-->
-    This ensures
-    text written within the tags
-    is pasted as is.
-    this will break line,
-    even if i didn't use the br function because of the pre tag. 
-</pre>
-
+<footer>
+    <pre> <!--Apparantely the functionality also works with the starting spaces. didn't realize it as such.-->
+        This ensures
+        text written within the tags
+        is pasted as is.
+        this will break line,
+        even if i didn't use the br function because of the pre tag. 
+    </pre>
+</footer>
 
 </body>
 </html>
