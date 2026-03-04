@@ -206,7 +206,6 @@ The best syntax for this is
 
 - Gives a drop down menu for selection. 
 
-
 ### Labels 
 - Meant for `FORMS` only. .
 - Turns text clickable wherever applicable for forms.
@@ -217,11 +216,21 @@ The best syntax for this is
 - Used to group data together as per the maker's choice. 
 - Grouping data is generally done using <div>
 - This is done becasue div is invisible to the user, it is used for layout mainly because of the class tag, otherwise, how else would we group data. 
+
 ## ID
 - Global Attribute 
 - Can be used with any other element/tag
 - This works by providing a unique identifier for the said tag
 - This tag can then be used in back or front end to do whatever we need to with it. 
+
+## <iframe src="link">
+- Website inside a website. 
+- somewhat like a mini player, but that thing where the video plays within a website itself. 
+- not necessary to use videos,, can use any website, which allows this. 
+- `height`  `width`  `frameborder` 
+- for normal videos we can even use controls, which allows `controls` like pause play volume etc in videos. 
+- `loop` to loop videos automatically after finishing 
+- `autoplay` generally shouldn't be used, but ok to use if you want to. 
 
 
 
@@ -301,10 +310,6 @@ They:
 - Are not directly invoked by your application code  
 - Are executed by the runtime environment (e.g., browser)  
 - Run at the appropriate time (like button click, page load, etc.)
-
-
-
-
 
 
 #  CSS
