@@ -46,33 +46,47 @@ Here we have used an attribute, in this case the attribute is LANG referring to 
             <li> Sour</li>
             <ul>
                 <li> Lemon </li>
+
                 <ul>
                     <li> Yellow </li>
                 </ul>
+
                 <li> Vinegar </li>
             </ul>
+
             <li> Bitter </li>
+
             <ul>
                 <li> Coffee </li>
                 <li> Dark Chocolate </li>
             </ul>
+
             <li> Sweet </li>
+
             <ul>
                 <li> Sugar </li>
                 <li> Honey </li>
             </ul>
+
+        </ul>
+
+            <ol>
             <li> Salty </li>
-            <ul>
+
+            <ol>
                 <li> Salt </li>
                 <li> Soy Sauce </li>
-            </ul>
+            </ol>
+
             <li> Umami </li>
+
             <ul>
                 <li> MSG </li>
                 <li> Mushrooms </li>
             </ul>
 
-        </ul>
+            </ol>
+
     </section>
     <p>
         Paragraph 
@@ -121,7 +135,86 @@ Here we have used an attribute, in this case the attribute is LANG referring to 
         This is <sub> subscript </sub> <br>
         This is <sup> Superscript </sup> <br>
     </section>
+
+    <section>
+        <table id="table"><!--Table tag-->
+
+            <caption> <!-- This is the table's Caption.-->
+                This is a table
+            </caption>
+
+            <thead >
+                <tr>
+                    <th> Name </th>
+                    <th> Age </th>
+                    <th> City </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> John Doe </td>
+                    <td> 30 </td>
+                    <td> New York </td>
+                </tr>
+
+                <tr>
+                    <td> Jane Smith </td>
+                    <td> 25 </td>
+                    <td> Los Angeles </td>
+                </tr>
+                
+                <tr>
+                    <td> John Doe </td> <!-- Table data -->
+                    <td> 30 </td>
+                    <td> New York </td> 
+                </tr>
+
+                <tr> 
+                    <th colspan=" 2"> Name </th> <!-- A Table can have headers even in the middle of the table -->
+                    <th> Age </th>
+                    <th> City </th>
+                </tr>
+
+                <tr>
+                    <td> Jane Smith </td>
+                    <td> 25 </td>
+                    <td> Los Angeles </td>
+                    
+                </tr>
+            </tbody>
+        </table>
+       
+        <br>
+    </section>
+
+    <form action="">
+        <label for="pass">Password:   
+        <input type="password" placeholder="Enter NAme" id="pass"><br>
+        </label>
+
+        <input type="radio" value="Red" name = "color" id="Color1"> 
+        <label for="Color1">Red</label> <br>
+        <input type="radio" value="Blue" name = "color" id="Color2"> 
+        <label for="Color2">Blue</label><br><br>
+
+
+    </form>
+
+
+Select Color 
+<select name="colors" id="-">
+    <option value="Red">Red</option>
+    <option value="Blue">Blue</option>
+    <option value="Green">Green</option>
+</select> <br><br>
+<textarea name="Dev" id="333" rows="1" cols="20"></textarea>
+
+
 </main>
+
+
+
 
 <hr>
 <footer>

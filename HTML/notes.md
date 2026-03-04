@@ -140,9 +140,90 @@ Used plainly as text, nothing in middle, no closing and opening, just simple emp
 - Nested lists are ok and normal. 
 
 ### Unordered List <ul>
-- 
+- Uses bullet points as list is unordered
 
 ### Ordered List <ol>
+- uses number and maintains order of the list
+
+## <Table>
+
+## <caption>
+- Displays CAption for the table
+- Center of the table, no bold 
+
+### <tr>
+- Used to display table row
+- Actually gives a table row and the number of <td > or <th > controls the number of rows
+
+### <td>
+- Used to display table data
+- Merely used for formatting purposes
+- Left aligned
+
+### <th>
+- Used to display header.
+- Merely used for formatting purposes
+- Center of the cell, Bold
+- <th colspan="2"> This will ensure that this particular header line, where i've used col span ,will be right in between 2 columns. 3 for right in between 3 columns
+
+### <Thead>
+- No visible change primarily for code layout
+
+### <Tbody>
+- No visible change primarily for code layout
+
+## <Form>
+- Used to collect data from the user.
+
+### <form action=""> 
+- Used to defne the type of action that needs to be performed when the form is submitted, like giving it to the back end or frontend JS,basically runs other actual code file. 
+
+### <input type= "text" placeholder= "">
+- type = Input type
+  - Type Text, normal
+  - Type Password- Input hidden by bullet points
+  - checkbox- to have multiple selections
+  - Radio - Provides options for single selection. 
+            <input type="radio" value="" name = "color" id=""> Red
+    - Here the value is internal, and goes to the backend
+    - The red at the end is the word outputed with it, althought, rather than using it like this, we must use labels to allow for test to be clickable and allowing selection using the text alone.
+    - Using the same name, groups the radio together, Allowing only one to be selected
+- placeholder = Text written before filling it up.
+The best syntax for this is 
+
+<label for="">
+  <input type="radio" value="" name = "color" id=""> Red
+</label>
+
+## <textarea name="feedback" id = "333" placeholder = "feedback" rows="" cols=""> </textarea>
+- Gives a text area for input
+- Doesn't need to be used with forms, can be used standalone. 
+- Name for grouping once again. 
+
+## <select name = "" id=>
+  <option value =""> value (that should be shown) </option>
+  </select>
+
+- Gives a drop down menu for selection. 
+
+
+### Labels 
+- Meant for `FORMS` only. .
+- Turns text clickable wherever applicable for forms.
+- <label for= "whatever id value" > Out for Radio that the user sees  </label>
+- Labeling the radio input allows us to turn the associated text with it, clickable. We don't necessarily have to click on the  small circle to select our choice instead we can simply click on associated text
+
+## Class
+- Used to group data together as per the maker's choice. 
+- Grouping data is generally done using <div>
+- This is done becasue div is invisible to the user, it is used for layout mainly because of the class tag, otherwise, how else would we group data. 
+## ID
+- Global Attribute 
+- Can be used with any other element/tag
+- This works by providing a unique identifier for the said tag
+- This tag can then be used in back or front end to do whatever we need to with it. 
+
+
 
 
 ## Block Tags
