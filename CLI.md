@@ -29,6 +29,6 @@ MD File for CLI commands.
 # `touch` Creating files
 - touch default.txt , will create a 0 byte empty text file named default
 
-# `rm` removes/ deletes a file. 
+# `rm` removes/ deletes a file. n
 - `-r` for removing directories 
 
