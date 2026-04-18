@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images </title>
+</head>
+<body>
+    <h1>Lesson about Links</h1>
+    <p>Sample links and  <a href="images.html">images </a>empty link just for show.</p>
+    <p>So, A Link can be broken down into 3 parts.
+        <ol>
+            <li>The <strong>Scheme</strong> ie. <em>Https://</em></li>
+            <li>The <strong>Domain</strong> i.e <em> google.com</em></li>
+            <li>The Path, elaborating on this, We have a project, let's say Odin project,<br> this would become my domain(folder)
+                and everything inside the folder would be the <strong>path</strong> eg. <em>/en-US/docs/Web/HTML</em>
+            </li>
+        </ol>
+    </p>
+    There are 3 types of links. (For the relative links the <strong>scheme</strong> and <strong>domain</strong> are the same)
+    <ul>
+        
+        <li><a href="../../Odin_project/odin.html" target="_blank">Relative Link</a></li>
+        <ul><li>I have to make sure to use relative links, I.e can't provide absolute system path, <br>the path needs to 
+            relative to the file. So in this case i had to use <strong>../../</strong> in order to receive an output
+        </li></ul>
+        <li><a href="">Root Relative Link</a></li>
+        <ul><li>Can only be checked and tested on an actual web server.</li></ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Absolute Link</a></li>
+        <ul><li>Links Which are External, and absolute in the sense, nothing we do is going to change that link ever.</li></ul>
+    </ul>
+
+    <H2> Image and image format </H2>
+    <ul>
+        <strong>JPG images</strong> <br>
+        <img src="../../Odin_project/IMG/mochi.jpg" alt="">
+        <li>Used to handle a wide variety of colors with low file size. Does not support transparent pixels. </li>
+        <br> <br>
+        <strong>PNG images</strong><br>
+        <img src="../../Odin_project/IMG/mochi.png" alt="">
+        <li> The file size for the same quality will be bigger than JPG files. But they do support transparent pixels. and no color pallete limitations</li>
+        <br><br>
+        <strong>GIF images</strong><br>
+        <img src="../../Odin_project/IMG/mochi.gif" alt="">
+        <li>Supports animation, but only supports 256 colors, and also supports transparent pixels. Can't have semi-opaque pixels.
+        <br><br>
+        <strong>SVG images</strong><br>
+        <img src="../../Odin_project/IMG/mochi.svg" alt="">
+        <li>Scalable Vector Graphics, resolution independent, small file size, supports interactivity and animation.</li>
+    </ul>
+
+
+</body>
+</html>
